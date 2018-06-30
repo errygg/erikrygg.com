@@ -15,6 +15,9 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "9a:da:fc:53:78:df:53:89:dd:ca:35:94:e0:14:ea:43"
-      - run:
+      - deploy:
           name: Run deploy scripts
-          command: ../deploy-ghpages.sh
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              ../deploy-ghpages.sh
+            fi
