@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: Prepare shell commands
-          command: cp scripts/deploy-ghpages.sh ../ && chmod 755 ../deploy-ghpages.sh
+          command: env && cp scripts/deploy-ghpages.sh ../ && chmod 755 ../deploy-ghpages.sh
       - add_ssh_keys:
           fingerprints:
             - "9a:da:fc:53:78:df:53:89:dd:ca:35:94:e0:14:ea:43"
