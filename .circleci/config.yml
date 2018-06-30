@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:latest
+      - image: circleci/ruby:latest
     working_directory: ~/repo
     environment:
       - SOURCE_BRANCH: master
