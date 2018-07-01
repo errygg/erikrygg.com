@@ -26,8 +26,9 @@ collections:
   - medium_posts
 
 plugins:
-  -jekyll-sitemap
-  -jekyll-feed
+  - jekyll-sitemap
+  - jekyll-display-medium-posts
+  - jekyll-feed
 
 exclude:
   - Gemfile
