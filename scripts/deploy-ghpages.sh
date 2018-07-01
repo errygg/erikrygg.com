@@ -4,8 +4,8 @@ set -e
 pwd
 remote=$(git config remote.origin.url)
 
-git config --global user.email "$GH_EMAIL"
 git config --global user.name "$GH_NAME"
+git config --global user.email "$GH_EMAIL"
 git checkout "$TARGET_BRANCH"
 git merge "$SOURCE_BRANCH" -m "CircleCI merging \'$SOURCE_BRANCH\' into \'$TARGET_BRANCH\'"
 git push origin "$TARGET_BRANCH"
