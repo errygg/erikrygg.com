@@ -25,7 +25,7 @@ sass:
 collections:
   - medium_posts
 
-gems:
+plugins:
   -jekyll-sitemap
   -jekyll-feed
 
