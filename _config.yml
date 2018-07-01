@@ -22,10 +22,13 @@ kramdown:
 sass:
   style: :expanded
 
-gems:
-  -jekyll-sitemap
-  -jekyll-feed
-  -jekyll-crosspost-to-medium
+collections:
+  - medium_posts
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-display-medium-posts
+  - jekyll-feed
 
 exclude:
   - Gemfile
