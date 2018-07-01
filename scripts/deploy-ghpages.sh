@@ -10,7 +10,7 @@ git checkout "$TARGET_BRANCH"
 git merge "$SOURCE_BRANCH" -m "CircleCI merging \'$SOURCE_BRANCH\' into \'$TARGET_BRANCH\'"
 bundle install
 bundle exec jekyll build
-git add --force -A
+git add --force _site/
 git push origin "$TARGET_BRANCH"
 
 echo "Deployment complete!"
