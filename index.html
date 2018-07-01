@@ -4,20 +4,7 @@ layout: default
 <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" >
 
 <div class="posts">
-  <p>{{site.medium_posts}}</p>
-  {% for e in site.medium_posts %}
-  <article class="post">
-
-    <h1>{{ e.title }}</h1>
-
-    <div class="entry">
-      <p>{{e.feed_content}}</p>
-    </div>
-
-  </article>
-  {% endfor %}
-
-  <!-- {% for post in site.posts %}
+  {% for post in site.posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -28,5 +15,5 @@ layout: default
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
-  {% endfor %} -->
+  {% endfor %}
 </div>

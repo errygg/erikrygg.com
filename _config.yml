@@ -27,7 +27,6 @@ collections:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-display-medium-posts
   - jekyll-feed
 
 exclude:
