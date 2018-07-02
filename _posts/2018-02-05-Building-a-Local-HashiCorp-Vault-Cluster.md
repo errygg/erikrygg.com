@@ -2,7 +2,7 @@
 layout: post
 title: Building a Local HashiCorp Vault Cluster - Volume 1
 date: 2018-02-05
-categories: [ vault ssh security ]
+categories: [ devops vault ssh security ]
 ---
 
 ![Lock Image](https://cdn-images-1.medium.com/max/2000/1*9Fea6EaEbDtRaZ9vIefzgQ.jpeg)
