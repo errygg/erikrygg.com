@@ -5,10 +5,10 @@ date: 2018-03-04
 categories: [ devops terraform vault consul kitchen ]
 ---
 
+![Gandolf Image](https://cdn-images-1.medium.com/max/1600/1*MFI0A3dkVjixTwdYZLqEDw.jpeg)
+
 # HashiCorp Vault and the Magic of Consul Templates
 #### Using Terraform to Spin up Vault/Consul and Pull Secrets with consul-template
-
-![Gandolf Image](https://cdn-images-1.medium.com/max/1600/1*MFI0A3dkVjixTwdYZLqEDw.jpeg)
 
 > This blog was originally posted [here](https://medium.com/rigged-ops/hashicorp-vault-and-the-magic-of-consul-templates-d4a053e7a4cc) on Medium
 
