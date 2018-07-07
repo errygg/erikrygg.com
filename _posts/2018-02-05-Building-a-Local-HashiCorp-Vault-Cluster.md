@@ -32,7 +32,7 @@ MY-MAC$ docker run --network vault-net --cap-add=IPC_LOCK -e 'VAULT_DEV_ROOT_TOK
 <Logs and stuff will show up here>
 ```
 
-Note we are also connecting to the `vault-net` network. In a separate terminal (ensure you have the `vault` [binary](http://brewformulas.org/Vault) installed on your local machine) run:
+Note we are also connecting to the `vault-net` network. In a separate terminal (ensure you have the `vault` binary installed on your local machine) run:
 
 ```bash
 MY-MAC$ export VAULT_ADDR=http://0.0.0.0:8200
