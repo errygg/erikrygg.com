@@ -5,7 +5,7 @@ date: 2018-06-26
 categories: [ devops terraform packer immutable ]
 ---
 
-![Tale of Two Cities Image](../assets/tale-of-two-cities-detail.png)
+![Tale of Two Cities Image](../assets/tale-of-two-cities-cover-detail.png)
 
 # A Tale of Two Terraforms — A Model for Managing Immutable and Mutable Infrastructure
 
